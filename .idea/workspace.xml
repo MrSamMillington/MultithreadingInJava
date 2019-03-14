@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab94ffb3-69e8-4a86-998e-e3fe0d8b5ed2" name="Default Changelist" comment="" />
+    <list default="true" id="ab94ffb3-69e8-4a86-998e-e3fe0d8b5ed2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/s/j/millington/callableandfuture/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s/j/millington/interrupting/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,7 +30,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="569">
-                <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+                <caret line="117" column="87" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,39 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/interrupting/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/Runner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -76,6 +54,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,6 +85,10 @@
         <option value="$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s/j/millington/callableandfuture/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/s/j/millington/interrupting/App.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -114,6 +99,7 @@
     <option name="width" value="1871" />
     <option name="height" value="1051" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,46 +146,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="millington" type="462c0819:PsiDirectoryNode" />
-              <item name="producerconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultithreadingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultithreadingInJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="millington" type="462c0819:PsiDirectoryNode" />
-              <item name="producerconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="lowlevel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultithreadingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultithreadingInJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="millington" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultithreadingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultithreadingInJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="millington" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
-              <item name="deadlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultithreadingInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultithreadingInJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="millington" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
-              <item name="reentrant" type="462c0819:PsiDirectoryNode" />
+              <item name="interrupting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552487225989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552551716261" />
     <property name="last_opened_file_path" value="/usr/lib/jvm/java-8-oracle/bin/jvisualvm" />
   </component>
   <component name="RecentsManager">
@@ -229,13 +176,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (5)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s.j.millington.demo.demo1.App" />
+      <option name="MAIN_CLASS_NAME" value="s.j.millington.callableandfuture.App" />
       <module name="s.j.millington.MultithreadingInJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s.j.millington.demo.demo1.*" />
+          <option name="PATTERN" value="s.j.millington.callableandfuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,24 +191,11 @@
       </method>
     </configuration>
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s.j.millington.producerconsumer.notify.App" />
+      <option name="MAIN_CLASS_NAME" value="s.j.millington.interrupting.App" />
       <module name="s.j.millington.MultithreadingInJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s.j.millington.producerconsumer.notify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s.j.millington.producerconsumer.lowlevel.App" />
-      <module name="s.j.millington.MultithreadingInJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="s.j.millington.producerconsumer.lowlevel.*" />
+          <option name="PATTERN" value="s.j.millington.interrupting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,6 +222,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="s.j.millington.sync.deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s.j.millington.semaphores.App" />
+      <module name="s.j.millington.MultithreadingInJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="s.j.millington.semaphores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
-        <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="-14" width="1879" height="1095" extended-state="6" />
+    <frame x="43" y="-4" width="1877" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16566758" />
@@ -428,7 +375,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.310559" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -589,7 +536,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -611,10 +558,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/sync/deadlock/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/semaphores/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/callableandfuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/callableandfuture/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/s/j/millington/interrupting/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -622,7 +614,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="569">
-            <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <caret line="117" column="87" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="87" />
           </first_editor>
           <second_editor />
         </state>

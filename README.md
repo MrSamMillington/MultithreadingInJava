@@ -79,9 +79,45 @@ with `lock.newCondition()`.
 Deadlock is when two threads attempt to get access to locks that the other has. 
 
 To counter, when 2 locks are needed, write a `requireLocks(Lock one, Lock two)` method to safely acquire the locks
-together,
+together, releasing any locks acquired alone, then retrying indefinitely. 
 
 ## Semaphores
+
+A semaphore maintains a count, or available permits 
+
+`release()` will increase the count, `acquire` will decrement it. `acquire` will wait until a permit is available.
+
+This mechanism can be used a lock.
+
+Usually used to control access to a resource. 
+
+semaphore can have a fairness. Fair semaphores will give permits on first come first serve basis. 
+
+## Callable And Future
+
+Allows us to get results from threads.
+
+Callable replaces run able and returns an Object/throws an error.
+
+Futures are used to collect the return value from the callable.
+
+`Future.get()` will block the main thread until the Callable has returned a value.
+
+If exception is thrown, calling `get()` will throw the exception.
+
+Also provides handy methods such as `cancel`, `isCancelled` and `isDone`.
+
+## Interrupting Threads
+
+Replaces using a volatile boolean `isRunning` scenario to determine when to stop, which
+is probably the best practice in Java. 
+
+`Thread.interrupt()` will not stop executing code. It will set a flag that can be queried from 
+the runnable. This can be used to stop executing code. 
+
+`Thread.sleep()` will also throw an `InterruptedException` if it detects the interrupt.
+
+
 
 
 
